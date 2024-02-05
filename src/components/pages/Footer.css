@@ -1,0 +1,29 @@
+.ecommerce-footer {
+    background-color: #232f3e;
+    color: #ffffff;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    margin-bottom: 30px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Add styles for responsiveness if needed */
+  

@@ -1,0 +1,135 @@
+/* Style for the container */
+.row.justify-content-center {
+    margin-top: 50px;
+}
+
+/* Style for the search card */
+
+
+
+
+
+
+.section {
+    padding: 90px 0;
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    
+}
+
+.fw-semibold{
+    color:white;
+}
+.card {
+    height: 294px;
+    border: 0;
+    margin-top: 70px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    background: rgb(255, 255, 255);
+    border-radius: 80px 7px;
+    transition: all 0.5s ease-in-out;
+
+}
+.card-body {
+    padding: 35px;
+}
+.card-link{
+    margin-top: 15px ;
+}
+a {
+    text-decoration: none;
+    color: #05f0357a ;
+    font-weight: 500;
+    text-align: bottom;
+}
+h1 {
+    color: #78bf86;
+}
+i {
+    color: #27c42f;
+}
+h4 {
+    font-weight: 600;
+    color: #fff;
+}
+.icon {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #27c42f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover {
+    transform: translateY(-35px);
+}
+.card:hover .icon {
+    background-color: #27c42f;
+    color: #fff;
+    border: 2px dashed #27c42f;
+}
+@media (max-width: 1198px) {
+    .card{
+        height: 311px;
+    }
+    .card-body{
+        padding: 32px;
+    }
+}
+
+
+
+
+.categorybox {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: box-shadow all 0.5s ease-in-out ;
+    align-items: center; /* Correct property name */
+    
+}
+
+
+.categorybox:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 20px -5px, rgba(0, 0, 0, 0.4) 0px 6px 30px 5px; /* No trailing semicolon */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.categorycontent {
+    display: flex;
+  }
+  
+  .categorycontent .left {
+    flex: 1; /* To make it take up the available space */
+    padding: 20px; /* Adjust the padding as needed */
+  }
+  
+  .categorycontent .right {
+    padding: 20px; /* Adjust the padding as needed */
+  }
+  
+  .categorycontent .right button {
+    /* Add any button styling as needed */
+    background-color: #ffffff;
+    color: #060606;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.product-item{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+
